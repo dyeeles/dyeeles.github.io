@@ -262,7 +262,7 @@ a:visited {
 #sketch-bus {
   font-family: 'WilliamsCaslonText', sans-serif;
   text-align: center;
-  background-image: url('sketch-bus.jpg');
+  background-image: url('sketch-bus.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 144ex;
@@ -272,7 +272,7 @@ a:visited {
 #sketch-statues {
   font-family: 'WilliamsCaslonText', sans-serif;
   text-align: center;
-  background-image: url('sketch-statues.jpg');
+  background-image: url('sketch-statues.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 128ex;
@@ -302,7 +302,7 @@ a:visited {
 #sketch-boat3 {
   font-family: 'WilliamsCaslonText', sans-serif;
   text-align: center;
-  background-image: url('sketch-boat3.jpg');
+  background-image: url('sketch-boat3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 128ex;
@@ -312,7 +312,7 @@ a:visited {
 #sketch-house {
   font-family: 'WilliamsCaslonText', sans-serif;
   text-align: center;
-  background-image: url('sketch-house.jpg');
+  background-image: url('sketch-house.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 128ex;
@@ -342,7 +342,7 @@ a:visited {
 #sketch-gazebo {
   font-family: 'WilliamsCaslonText', sans-serif;
   text-align: center;
-  background-image: url('sketch-gazebo.jpg');
+  background-image: url('sketch-gazebo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
