@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'ACaslon RegularSC';
+    src: url('ACaslon-RegularSC.eot');
+    src: url('ACaslon-RegularSC.eot?#iefix') format('embedded-opentype'),
+        url('ACaslon-RegularSC.woff2') format('woff2'),
+        url('ACaslon-RegularSC.woff') format('woff'),
+        url('ACaslon-RegularSC.svg#ACaslon-RegularSC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Batak-Unicode';
+    src: url('Batak-Unicode-Regular.eot');
+    src: url('Batak-Unicode-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Batak-Unicode-Regular.woff2') format('woff2'),
+        url('Batak-Unicode-Regular.woff') format('woff'),
+        url('Batak-Unicode-Regular.svg#Batak-Unicode-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('WilliamsCaslonText-BoldItalic.eot');
+    src: url('WilliamsCaslonText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('WilliamsCaslonText-BoldItalic.woff2') format('woff2'),
+        url('WilliamsCaslonText-BoldItalic.woff') format('woff'),
+        url('WilliamsCaslonText-BoldItalic.svg#WilliamsCaslonText-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('WilliamsCaslonText-Italic.eot');
+    src: url('WilliamsCaslonText-Italic.eot?#iefix') format('embedded-opentype'),
+        url('WilliamsCaslonText-Italic.woff2') format('woff2'),
+        url('WilliamsCaslonText-Italic.woff') format('woff'),
+        url('WilliamsCaslonText-Italic.svg#WilliamsCaslonText-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('WilliamsCaslonText-Bold.eot');
+    src: url('WilliamsCaslonText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('WilliamsCaslonText-Bold.woff2') format('woff2'),
+        url('WilliamsCaslonText-Bold.woff') format('woff'),
+        url('WilliamsCaslonText-Bold.svg#WilliamsCaslonText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('WilliamsCaslonText-Regular.eot');
+    src: url('WilliamsCaslonText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('WilliamsCaslonText-Regular.woff2') format('woff2'),
+        url('WilliamsCaslonText-Regular.woff') format('woff'),
+        url('WilliamsCaslonText-Regular.svg#WilliamsCaslonText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,426 @@
+@font-face {
+    font-family: 'ACaslon RegularSC';
+    src: url('font/ACaslon-RegularSC.eot');
+    src: url('font/ACaslon-RegularSC.eot?#iefix') format('embedded-opentype'),
+        url('font/ACaslon-RegularSC.woff2') format('woff2'),
+        url('font/ACaslon-RegularSC.woff') format('woff'),
+        url('font/ACaslon-RegularSC.svg#ACaslon-RegularSC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Batak-Unicode';
+    src: url('font/Batak-Unicode-Regular.eot');
+    src: url('font/Batak-Unicode-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Batak-Unicode-Regular.woff2') format('woff2'),
+        url('font/Batak-Unicode-Regular.woff') format('woff'),
+        url('font/Batak-Unicode-Regular.svg#Batak-Unicode-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('font/WilliamsCaslonText-BoldItalic.eot');
+    src: url('font/WilliamsCaslonText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/WilliamsCaslonText-BoldItalic.woff2') format('woff2'),
+        url('font/WilliamsCaslonText-BoldItalic.woff') format('woff'),
+        url('font/WilliamsCaslonText-BoldItalic.svg#WilliamsCaslonText-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('font/WilliamsCaslonText-Italic.eot');
+    src: url('font/WilliamsCaslonText-Italic.eot?#iefix') format('embedded-opentype'),
+        url('font/WilliamsCaslonText-Italic.woff2') format('woff2'),
+        url('font/WilliamsCaslonText-Italic.woff') format('woff'),
+        url('font/WilliamsCaslonText-Italic.svg#WilliamsCaslonText-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('font/WilliamsCaslonText-Bold.eot');
+    src: url('font/WilliamsCaslonText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/WilliamsCaslonText-Bold.woff2') format('woff2'),
+        url('font/WilliamsCaslonText-Bold.woff') format('woff'),
+        url('font/WilliamsCaslonText-Bold.svg#WilliamsCaslonText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WilliamsCaslonText';
+    src: url('font/WilliamsCaslonText-Regular.eot');
+    src: url('font/WilliamsCaslonText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/WilliamsCaslonText-Regular.woff2') format('woff2'),
+        url('font/WilliamsCaslonText-Regular.woff') format('woff'),
+        url('font/WilliamsCaslonText-Regular.svg#WilliamsCaslonText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+a { 
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #800020;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+#heading {
+  font-family: 'Batak-Unicode', sans-serif;
+  font-size: 300%;
+  font-weight: normal;
+}
+
+#heading-translate {
+  margin-top: -2ex;
+  font-family: 'ACaslon RegularSC', sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+#bindu-top {
+  width: 800px;
+  height: 60px;
+}
+
+#bindu-bottom {
+  margin-top: 2ex;
+  width: 800px;
+  height: 60px;
+}
+
+.datetime {
+  margin-bottom: 5ex;
+}
+
+.invite {
+  width: 60%;
+  margin: 4ex auto;
+  text-align: left;
+}
+
+.invite-td {
+  width: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 3ex;
+  vertical-align: text-top;
+}
+
+#tspace {
+  min-width: 2px;
+  width: 2px;
+  max-width: 2px;
+  background-color: #d3d3d3;
+}
+
+.ps {
+  text-align: right;
+  padding-left: 33%;
+  font-style: italic;
+}
+
+.nav table {
+  margin: 4ex auto;
+  font-family: 'ACaslon RegularSC', sans-serif;
+  font-size: larger;
+}
+
+.nav-sep {
+  color: #800020;
+  font-size: larger;
+}
+
+.selector {
+  width: 60%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1000%;
+  color: #d3d3d3;
+}
+
+.selector-text {
+  font-weight: normal;
+  font-size: 100%;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+#spacer {
+  font-size: 1000%;
+  height: 1ex;
+  background: linear-gradient(to bottom, #ffffffff 50%, #ffffff00);
+}
+
+#collage {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  font-size: larger;
+  text-align: center;
+  background-image: url('collage2.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  font-size: 1000%;
+  height: 32ex;
+}
+
+.venue {
+  width: 60%;
+  margin: 4ex auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.venue td {
+  width: 50%;
+  padding: 0 3ex;
+  vertical-align: text-top;
+}
+
+.venue h4 {
+  font-family: 'ACaslon RegularSC', sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.boat-pics {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.boat-pics td {
+  text-align: center;
+}
+
+.boat-pics td img {
+  height: 10vw;
+  max-width: 90%;
+}
+
+.local {
+  width: 60%;
+  margin: 4ex auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.local td {
+  width: 50%;
+  padding: 0 3ex;
+  vertical-align: text-top;
+}
+
+.local h4 {
+  font-family: 'ACaslon RegularSC', sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+
+
+
+
+
+#sketch-carolina {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  font-size: larger;
+  text-align: center;
+  background-image: url('sketch-carolina.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  font-size: 1000%;
+  height: 16ex;
+}
+
+#sketch-bus {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-bus.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 144ex;
+  height: 196ex;
+}
+
+#sketch-statues {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-statues.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 128ex;
+  height: 196ex;
+}
+
+#sketch-boat1 {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-boat1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 64ex;
+  height: 96ex;
+}
+
+#sketch-boat2 {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-boat2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 196ex;
+}
+
+#sketch-boat3 {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-boat3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 128ex;
+  height: 96ex;
+}
+
+#sketch-house {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-house.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 128ex;
+  height: 164ex;
+}
+
+#sketch-view {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-view.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 196ex;
+}
+
+#sketch-twohouses {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-twohouses.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 196ex;
+}
+
+#sketch-gazebo {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-gazebo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 196ex;
+}
+
+#sketch-lunch {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-lunch.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 196ex;
+}
+
+#sketch-food {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-food.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 96ex;
+  height: 64ex;
+}
+
+#sketch-map {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-map.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 96ex;
+  height: 96ex;
+}
+
+#sketch-dance {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-dance.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 64ex;
+  height: 96ex;
+}
+
+#sketch-ulos {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-ulos.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 96ex;
+  height: 128ex;
+}
+
+#sketch-music {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  text-align: center;
+  background-image: url('sketch-music.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 196ex;
+  height: 128ex;
+}
+
+#sketch-panorama {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  font-size: larger;
+  text-align: center;
+  background-image: url('sketch-panorama.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 64ex;
+}
+
+
+
+
+
