@@ -120,7 +120,7 @@ a:visited {
 }
 
 .invite {
-  width: 60%;
+  width: 75%;
   margin: 4ex auto;
   text-align: left;
 }
@@ -129,7 +129,7 @@ a:visited {
   width: 50%;
   text-align: justify;
   text-justify: inter-word;
-  padding: 0 3ex;
+  padding: 0 6ex;
   vertical-align: text-top;
 }
 
@@ -191,7 +191,7 @@ a:visited {
 }
 
 .venue {
-  width: 60%;
+  width: 75%;
   margin: 4ex auto;
   text-align: justify;
   text-justify: inter-word;
@@ -199,7 +199,7 @@ a:visited {
 
 .venue td {
   width: 50%;
-  padding: 0 3ex;
+  padding: 0 6ex;
   vertical-align: text-top;
 }
 
@@ -224,7 +224,7 @@ a:visited {
 }
 
 .local {
-  width: 60%;
+  width: 75%;
   margin: 4ex auto;
   text-align: justify;
   text-justify: inter-word;
@@ -232,7 +232,7 @@ a:visited {
 
 .local td {
   width: 50%;
-  padding: 0 3ex;
+  padding: 0 6ex;
   vertical-align: text-top;
 }
 
