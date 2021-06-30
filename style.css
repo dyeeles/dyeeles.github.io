@@ -420,6 +420,17 @@ a:visited {
   height: 64ex;
 }
 
+#route-in {
+  font-family: 'WilliamsCaslonText', sans-serif;
+  font-size: larger;
+  text-align: center;
+  background-image: url('route2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 172ex;
+  height: 128ex;
+}
+
 
 
 
