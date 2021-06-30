@@ -424,10 +424,10 @@ a:visited {
   font-family: 'WilliamsCaslonText', sans-serif;
   font-size: larger;
   text-align: center;
-  background-image: url('route2.png');
+  background-image: url('route.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 172ex;
+  background-size: 128ex;
   height: 128ex;
 }
 
